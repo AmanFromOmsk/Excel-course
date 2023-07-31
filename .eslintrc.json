@@ -1,0 +1,32 @@
+// {
+//     "env": {
+//         "browser": true,
+//         "commonjs": true,
+//         "es6": true
+//     },
+//     "extends": [
+//         "google"
+//     ],
+//     "globals": {
+//         "Atomics": "readonly",
+//         "SharedArrayBuffer": "readonly"
+//     },
+//     "parserOptions": {
+//         "ecmaVersion": 2018
+//     },
+//     "rules": {
+//     }
+// }
+
+{
+    "parser": "@babel/eslint-parser",
+    "env": {
+        "es6": true,
+        "browser": true,
+        "node": true
+    },
+    "rules": {
+        
+    },
+    "extends": ["eslint:recommended", "google"]
+}
